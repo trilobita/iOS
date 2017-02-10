@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBA02BAA1D75724C0016ECD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA02BA91D75724C0016ECD8 /* main.m */; };
+		BBA02BAD1D75724C0016ECD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA02BAC1D75724C0016ECD8 /* AppDelegate.m */; };
+		BBA02BB01D75724C0016ECD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA02BAF1D75724C0016ECD8 /* ViewController.m */; };
+		BBA02BB31D75724C0016ECD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA02BB11D75724C0016ECD8 /* Main.storyboard */; };
+		BBA02BB51D75724C0016ECD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA02BB41D75724C0016ECD8 /* Assets.xcassets */; };
+		BBA02BB81D75724C0016ECD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA02BB61D75724C0016ECD8 /* LaunchScreen.storyboard */; };
+		BBA02BC31D75724C0016ECD8 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA02BC21D75724C0016ECD8 /* ______Tests.m */; };
+		BBA02BCE1D75724C0016ECD8 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA02BCD1D75724C0016ECD8 /* ______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBA02BBF1D75724C0016ECD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBA02B9D1D75724B0016ECD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBA02BA41D75724B0016ECD8;
+			remoteInfo = "系统语音合成";
+		};
+		BBA02BCA1D75724C0016ECD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBA02B9D1D75724B0016ECD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBA02BA41D75724B0016ECD8;
+			remoteInfo = "系统语音合成";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBA02BA51D75724B0016ECD8 /* 系统语音合成.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "系统语音合成.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA02BA91D75724C0016ECD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBA02BAB1D75724C0016ECD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBA02BAC1D75724C0016ECD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBA02BAE1D75724C0016ECD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBA02BAF1D75724C0016ECD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBA02BB21D75724C0016ECD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBA02BB41D75724C0016ECD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBA02BB71D75724C0016ECD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBA02BB91D75724C0016ECD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBA02BBE1D75724C0016ECD8 /* 系统语音合成Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "系统语音合成Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA02BC21D75724C0016ECD8 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		BBA02BC41D75724C0016ECD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBA02BC91D75724C0016ECD8 /* 系统语音合成UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "系统语音合成UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA02BCD1D75724C0016ECD8 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		BBA02BCF1D75724C0016ECD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBA02BA21D75724B0016ECD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA02BBB1D75724C0016ECD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA02BC61D75724C0016ECD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBA02B9C1D75724B0016ECD8 = {
+			isa = PBXGroup;
+			children = (
+				BBA02BA71D75724C0016ECD8 /* 系统语音合成 */,
+				BBA02BC11D75724C0016ECD8 /* 系统语音合成Tests */,
+				BBA02BCC1D75724C0016ECD8 /* 系统语音合成UITests */,
+				BBA02BA61D75724B0016ECD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBA02BA61D75724B0016ECD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBA02BA51D75724B0016ECD8 /* 系统语音合成.app */,
+				BBA02BBE1D75724C0016ECD8 /* 系统语音合成Tests.xctest */,
+				BBA02BC91D75724C0016ECD8 /* 系统语音合成UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBA02BA71D75724C0016ECD8 /* 系统语音合成 */ = {
+			isa = PBXGroup;
+			children = (
+				BBA02BAB1D75724C0016ECD8 /* AppDelegate.h */,
+				BBA02BAC1D75724C0016ECD8 /* AppDelegate.m */,
+				BBA02BAE1D75724C0016ECD8 /* ViewController.h */,
+				BBA02BAF1D75724C0016ECD8 /* ViewController.m */,
+				BBA02BB11D75724C0016ECD8 /* Main.storyboard */,
+				BBA02BB41D75724C0016ECD8 /* Assets.xcassets */,
+				BBA02BB61D75724C0016ECD8 /* LaunchScreen.storyboard */,
+				BBA02BB91D75724C0016ECD8 /* Info.plist */,
+				BBA02BA81D75724C0016ECD8 /* Supporting Files */,
+			);
+			path = "系统语音合成";
+			sourceTree = "<group>";
+		};
+		BBA02BA81D75724C0016ECD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBA02BA91D75724C0016ECD8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBA02BC11D75724C0016ECD8 /* 系统语音合成Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BBA02BC21D75724C0016ECD8 /* ______Tests.m */,
+				BBA02BC41D75724C0016ECD8 /* Info.plist */,
+			);
+			path = "系统语音合成Tests";
+			sourceTree = "<group>";
+		};
+		BBA02BCC1D75724C0016ECD8 /* 系统语音合成UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBA02BCD1D75724C0016ECD8 /* ______UITests.m */,
+				BBA02BCF1D75724C0016ECD8 /* Info.plist */,
+			);
+			path = "系统语音合成UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBA02BA41D75724B0016ECD8 /* 系统语音合成 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBA02BD21D75724C0016ECD8 /* Build configuration list for PBXNativeTarget "系统语音合成" */;
+			buildPhases = (
+				BBA02BA11D75724B0016ECD8 /* Sources */,
+				BBA02BA21D75724B0016ECD8 /* Frameworks */,
+				BBA02BA31D75724B0016ECD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "系统语音合成";
+			productName = "系统语音合成";
+			productReference = BBA02BA51D75724B0016ECD8 /* 系统语音合成.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBA02BBD1D75724C0016ECD8 /* 系统语音合成Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBA02BD51D75724C0016ECD8 /* Build configuration list for PBXNativeTarget "系统语音合成Tests" */;
+			buildPhases = (
+				BBA02BBA1D75724C0016ECD8 /* Sources */,
+				BBA02BBB1D75724C0016ECD8 /* Frameworks */,
+				BBA02BBC1D75724C0016ECD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBA02BC01D75724C0016ECD8 /* PBXTargetDependency */,
+			);
+			name = "系统语音合成Tests";
+			productName = "系统语音合成Tests";
+			productReference = BBA02BBE1D75724C0016ECD8 /* 系统语音合成Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBA02BC81D75724C0016ECD8 /* 系统语音合成UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBA02BD81D75724C0016ECD8 /* Build configuration list for PBXNativeTarget "系统语音合成UITests" */;
+			buildPhases = (
+				BBA02BC51D75724C0016ECD8 /* Sources */,
+				BBA02BC61D75724C0016ECD8 /* Frameworks */,
+				BBA02BC71D75724C0016ECD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBA02BCB1D75724C0016ECD8 /* PBXTargetDependency */,
+			);
+			name = "系统语音合成UITests";
+			productName = "系统语音合成UITests";
+			productReference = BBA02BC91D75724C0016ECD8 /* 系统语音合成UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBA02B9D1D75724B0016ECD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "方得";
+				TargetAttributes = {
+					BBA02BA41D75724B0016ECD8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BBA02BBD1D75724C0016ECD8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BBA02BA41D75724B0016ECD8;
+					};
+					BBA02BC81D75724C0016ECD8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BBA02BA41D75724B0016ECD8;
+					};
+				};
+			};
+			buildConfigurationList = BBA02BA01D75724B0016ECD8 /* Build configuration list for PBXProject "系统语音合成" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBA02B9C1D75724B0016ECD8;
+			productRefGroup = BBA02BA61D75724B0016ECD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBA02BA41D75724B0016ECD8 /* 系统语音合成 */,
+				BBA02BBD1D75724C0016ECD8 /* 系统语音合成Tests */,
+				BBA02BC81D75724C0016ECD8 /* 系统语音合成UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBA02BA31D75724B0016ECD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA02BB81D75724C0016ECD8 /* LaunchScreen.storyboard in Resources */,
+				BBA02BB51D75724C0016ECD8 /* Assets.xcassets in Resources */,
+				BBA02BB31D75724C0016ECD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA02BBC1D75724C0016ECD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA02BC71D75724C0016ECD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBA02BA11D75724B0016ECD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA02BB01D75724C0016ECD8 /* ViewController.m in Sources */,
+				BBA02BAD1D75724C0016ECD8 /* AppDelegate.m in Sources */,
+				BBA02BAA1D75724C0016ECD8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA02BBA1D75724C0016ECD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA02BC31D75724C0016ECD8 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA02BC51D75724C0016ECD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA02BCE1D75724C0016ECD8 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBA02BC01D75724C0016ECD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBA02BA41D75724B0016ECD8 /* 系统语音合成 */;
+			targetProxy = BBA02BBF1D75724C0016ECD8 /* PBXContainerItemProxy */;
+		};
+		BBA02BCB1D75724C0016ECD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBA02BA41D75724B0016ECD8 /* 系统语音合成 */;
+			targetProxy = BBA02BCA1D75724C0016ECD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBA02BB11D75724C0016ECD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA02BB21D75724C0016ECD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBA02BB61D75724C0016ECD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA02BB71D75724C0016ECD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBA02BD01D75724C0016ECD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBA02BD11D75724C0016ECD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBA02BD31D75724C0016ECD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "系统语音合成/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.fitme.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBA02BD41D75724C0016ECD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "系统语音合成/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.fitme.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BBA02BD61D75724C0016ECD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "系统语音合成Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.fitme.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/系统语音合成.app/系统语音合成";
+			};
+			name = Debug;
+		};
+		BBA02BD71D75724C0016ECD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "系统语音合成Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.fitme.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/系统语音合成.app/系统语音合成";
+			};
+			name = Release;
+		};
+		BBA02BD91D75724C0016ECD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "系统语音合成UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.fitme.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "系统语音合成";
+			};
+			name = Debug;
+		};
+		BBA02BDA1D75724C0016ECD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "系统语音合成UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.fitme.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "系统语音合成";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBA02BA01D75724B0016ECD8 /* Build configuration list for PBXProject "系统语音合成" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA02BD01D75724C0016ECD8 /* Debug */,
+				BBA02BD11D75724C0016ECD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBA02BD21D75724C0016ECD8 /* Build configuration list for PBXNativeTarget "系统语音合成" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA02BD31D75724C0016ECD8 /* Debug */,
+				BBA02BD41D75724C0016ECD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBA02BD51D75724C0016ECD8 /* Build configuration list for PBXNativeTarget "系统语音合成Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA02BD61D75724C0016ECD8 /* Debug */,
+				BBA02BD71D75724C0016ECD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBA02BD81D75724C0016ECD8 /* Build configuration list for PBXNativeTarget "系统语音合成UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA02BD91D75724C0016ECD8 /* Debug */,
+				BBA02BDA1D75724C0016ECD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBA02B9D1D75724B0016ECD8 /* Project object */;
+}
